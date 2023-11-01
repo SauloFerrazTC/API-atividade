@@ -1,0 +1,38 @@
+/* Estilos gerais */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #4065ea;
+    margin: 0;
+    padding: 0;
+}
+
+.tela {
+    width: 80%;
+    margin: 0 auto;
+    background-color: #a11000;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.link {
+    text-decoration: none;
+}
+
+.post_user {
+    background-color: #fff;
+    border: 1px solid #4065ea;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 15px;
+}
+
+.post_frase {
+    color: #333;
+    font-size: 16px;
+}
+
+h1 {
+    color: #fff;
+}
+
