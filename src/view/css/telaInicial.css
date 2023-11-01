@@ -1,0 +1,28 @@
+body {
+    background-color: #4065ea; /* Azul */
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+}
+
+h1 {
+    color: #a11000; /* Vermelho */
+}
+
+.cadastrar-button, .listar-button {
+    background-color: #a11000; /* Vermelho */
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    margin: 10px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.cadastrar-button:hover, .listar-button:hover {
+    background-color: #4065ea; /* Azul */
+}
+
+.cadastrar-button {
+    margin-right: 10px;
+}
