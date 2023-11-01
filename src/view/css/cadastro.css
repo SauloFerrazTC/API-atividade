@@ -1,0 +1,71 @@
+/* Estilos para a página de adicionar postagem */
+
+body {
+    background-color: #4065ea; /* Azul */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    width: 400px;
+    margin: 0 auto;
+    background: #a11000; /* Vermelho */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+legend {
+    font-size: 24px;
+    color: #fff; /* Branco */
+    text-align: center;
+}
+
+.InputBox {
+    position: relative;
+}
+
+.InputUser {
+    width: 100%;
+    padding: 10px;
+    background: none;
+    outline: none;
+    color: #fff;
+    border: none;
+    border-bottom: 2px solid #fff;
+}
+
+.InputUser:focus {
+    border-bottom: 2px solid #4065ea; /* Azul */
+}
+
+.labelInput {
+    position: absolute;
+    top: 10px;
+    left: 0;
+    padding: 10px;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+.InputUser:focus + .labelInput,
+.InputUser:valid + .labelInput {
+    top: -20px;
+    left: 0;
+    color: #3498db; /* Azul */
+}
+
+#SubmitPost {
+    background: #4065ea; /* Azul */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+#SubmitPost:hover {
+    background: #a11000; /* Vermelho */
+}
